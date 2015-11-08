@@ -1,0 +1,19 @@
+#this-rule-will-fail {
+  background-position: calc(100vh - 10px);
+}
+
+.this-rule-wont-fail {
+  background-position: -100px;
+}
+
+.this-rule-wont-fail {
+  height: calc(100vh - 10px);
+
+  #this-fails-too {
+    background-position: calc(100vh - 10px);
+  }
+
+  .this-rule-wont-fail {
+    background-position: -100px;
+  }
+}

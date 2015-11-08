@@ -1,0 +1,20 @@
+{
+  "name": "polish-no-calc-in-bg-position",
+  "version": "1.0.0",
+  "description": "Polish plugin to flag using `calc` in `background-position` as an error.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brendanlacroix/polish-no-calc-in-bg-position.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/intern-client config=tests/intern"
+  },
+  "author": "Brendan LaCroix <brendanlacroix@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gonzales-pe": "git://github.com/brendanlacroix/gonzales-pe.git",
+    "intern": "^3.0.6"
+  }
+}

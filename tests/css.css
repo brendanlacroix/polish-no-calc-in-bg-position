@@ -1,0 +1,16 @@
+#this-rule-will-fail {
+  background-position: calc(100vh - 10px);
+}
+
+.this-rule-wont-fail {
+  height: calc(100vh - 10px);
+}
+
+.neither-will-this {
+  background-position: -100px;
+}
+
+.background-position-calc {
+  /* this won't fail either */
+  color: green;
+}
